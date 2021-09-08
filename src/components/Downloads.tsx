@@ -10,7 +10,7 @@ const posts = [
     {
         title: 'Literatur',
         description:
-            `Die Textpassaage aus Namomi Noviks "Drachenbrut", dem ersten Band der "die Feuerreiter seiner Majestät"-Reihe
+            `Die Textpassage aus Naomi Noviks "Drachenbrut", dem ersten Band der "Die Feuerreiter seiner Majestät"-Reihe
  war das erste Sample das für meine Projektarbeit feststand.Ausgewählt habe ich sie  aus zwei Gründen: Zum einen
 Ist es eine meiner persönlich liebsten Buchreihen sodass ich mich recht gut in die Situation eindenken kann, zu andern
 hat die Szene meiner Meinung nach eine Schöne Spannung, und trotzdem ist recht klar worum es geht.
