@@ -117,8 +117,8 @@ export const Header = (props: IHeader) => {
                                 <span className="block text-blue-400 xl:inline">Hallo Welt!</span>
                             </h1>
                             <p className="mt-3 text-xl text-gray-200 leading-8 mr-8">
-                                Das schreiben Programmierer auf ihren ersten Gehversuchen meistens in die oberste Zeile Ihrer ersten Webseite.
-                                Nun bin ich kein Programmierer, aber hier ist meine Webseite mit der ich mich und meine ersten Schritte in die Welt
+                                Das schreiben Programmierer auf ihren ersten Gehversuchen meistens in die oberste Zeile ihrer ersten Webseite.
+                                Nun bin ich kein Programmierer, aber hier ist meine Webseite, mit der ich mich und meine ersten Schritte in die Welt
                                 des (Synchron-)Sprechens vorstelle.
                             </p>
 

@@ -78,13 +78,13 @@ export const About = () => {
                     </span>
                 </h1>
                 <p className="mt-8 text-xl text-gray-200 leading-8">
-                    Mein Name ist Fabian Krüger, und solang ich mich erinnere bin ich begeisterter Zuhörer.
-                    Ob nun Hörbücher und -spiele, Synchronisierte Filme und Videospiele, der Offsprecher in Dokumentationen, schon früh wollte
+                    Mein Name ist Fabian Krüger und solange ich mich erinnere bin ich begeisterter Zuhörer.
+                    Ob nun Hörbücher und -spiele, synchronisierte Filme und Videospiele, der Offsprecher in Dokumentationen; schon früh wollte
                     ich etwas derartiges machen.
                 </p>
                 <p className="mt-8 text-xl text-gray-200 leading-8">
                     Neben meiner Tätigkeit als Technischer Prduktdesigner, dem hobbymäßigen Spielen von Handball und Pen-and-Paper-Rollenspielen,
-                    bis zur aktiven Mitgliedschaft im örtlichen Faschingsverein - mache ich seit April 2021 eine Ausbildung zum Sprecher, was mir
+                    bis zur aktiven Mitgliedschaft im örtlichen Faschingsverein mache ich seit April 2021 eine Ausbildung zum Sprecher, was mir
                     große Freude bereitet.
                 </p>
 
@@ -103,19 +103,19 @@ export const About = () => {
                     Geboren: 12.05.1996
                 </p>
                 <p className="mt-8 text-xl text-gray-200 leading-8">
-                    Kreisläufer auf dem Handballfeld seit: 2007
+                    Kreisläufer auf dem Handballfeld: seit 2007
                 </p>
                 <p className="mt-8 text-xl text-gray-200 leading-8">
                     Begeisterter Pen-and-Paper-Spieler: seit ca.2010
                 </p>
                 <p className="mt-8 text-xl text-gray-200 leading-8">
-                    Ausgebildeter Technischer Produktdesigner seit: 2016
+                    Ausgebildeter Technischer Produktdesigner: seit 2016
                 </p>
                 <p className="mt-8 text-xl text-gray-200 leading-8">
-                    Aktives Mitglied "närrisches Kommitee Büblingshausen": 2017
+                    Aktives Mitglied "Närrisches Kommitee Büblingshausen": seit 2017
                 </p>
                 <p className="mt-8 text-xl text-gray-200 leading-8">
-                    Ausbildung zum (Synchron-)Sprecher an der Deutschen POP seit: April 2021
+                    Ausbildung zum (Synchron-)Sprecher an der Deutschen POP: seit April 2021
                 </p>
 
             </div>
