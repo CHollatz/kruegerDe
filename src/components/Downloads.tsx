@@ -6,7 +6,7 @@ import freundschaft from "../assets/freundschaft.mp3";
 
 const posts = [
     {
-        title: 'Känguru',
+        title: 'Das Känguru Manifest',
         description:
             `Als erstes Sample, das ich für meine Projektarbeit einreichen wollte, stand dieser Text für mich fest.
 Inhaltlich befinden sich die drei Akteure Marc-Uwe Kling, das Känguru und eine Angestellte, wie der Titel schon verrät, in der Ausländerbehörde. Dort versucht das Känguru der unmotivierten Angestellten klarzumachen, dass es aufgrund seiner Festanstellung bei Marc-Uwe nicht abgeschoben werden kann. Besonders interessant an diesem Text finde ich sowohl die verschiedenen Tempi und Gemütszustände der Akteure, als auch die Tatsache, dass die englische, französische und spanische Übersetzung des Wortes „Scheißverein“ wie selbstverständlich im Redefluss einzubauen waren.
@@ -14,7 +14,7 @@ Inhaltlich befinden sich die drei Akteure Marc-Uwe Kling, das Känguru und eine 
         audioSrc: kanguru
     },
     {
-        title: 'Lama',
+        title: 'Ein Königreich für ein Lama',
         description:
             `Das Sample der Restaurantszene aus „Ein Königreich für ein Lama“ habe ich ausgewählt, da es mir sowohl bei der Aufnahme, als auch beim späteren Hören am meisten Spaß gemacht hat.
 Obgleich ich im Nachhinein festgestellt habe, dass wir die Szene gänzlich anders angelegt haben als die Originalsprecher dies im Film tun, finde ich, dass unsere Version einen eigenen Charme besitzt.
@@ -25,7 +25,7 @@ Auch finde ich, dass die, wie im Kinder/Jugendgenre gewünscht, überzogene Dars
 
     },
     {
-        title: 'Freundschaft',
+        title: 'Freundschaft Plus',
         description:
             `Die Entscheidung, welches mein drittes und letztes Sample werden sollte, fiel mir nicht leicht. Einerseits wollte ich, da die ersten beiden Hörproben beide einen eher lustigen Charakter haben, nicht noch einen Text nehmen, der in diese Richtung geht, andererseits halte ich dies für meine Stärke.
 Ich habe mich letztendlich für die Krankenhausszene aus „Freundschaft Plus“ entschieden.
