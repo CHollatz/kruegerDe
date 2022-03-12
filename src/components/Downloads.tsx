@@ -1,78 +1,39 @@
 import React from 'react'
 import { AudioPlayer } from './Audio';
-import literatur from "../assets/Literatur.mp3";
-import nachrichten from "../assets/Nachrichten.mp3";
-import schauspiel from "../assets/Schauspiel.mp3";
-import werbung from "../assets/Werbung.mp3";
-import werbungWav from "../assets/Werbung.wav";
+import lama from "../assets/lama.mp3";
+import kanguru from "../assets/kanguru.mp3";
+import freundschaft from "../assets/freundschaft.mp3";
 
 const posts = [
     {
-        title: 'Literatur',
+        title: 'Känguru',
         description:
-            `Die Textpassage aus Naomi Noviks "Drachenbrut", dem ersten Band der "Die Feuerreiter seiner Majestät"-Reihe
- war das erste Sample, das für meine Projektarbeit feststand. Ausgewählt habe ich sie aus zwei Gründen: Zum einen
-Ist es eine meiner persönlich liebsten Buchreihen, sodass ich mich recht gut in die Situation eindenken kann, zum andern
-hat die Szene meiner Meinung nach eine Schöne Spannung und trotzdem ist recht klar worum es geht.
-Außerdem ist mir bisher nicht bekannt, dass es von dieser Reihe eine Hörbuchumsetzung gibt und das finde ich extrem schade,
-        lässt sich aber vielleicht hierdurch ändern.
-In das Gesamtthema Großbritannien passt der Text, da die Hauptperson Will Laurence, ein Britischer Marinekapitän, der
-sich in der Situation wiederfindet, in den napoleonischen Kriegen ein sehr seltenes Drachenei zu erbeuten, dessen Schlüpfling
-von diesem Moment an sein komplettes Leben umkrempeln wird.`,
-        date: 'Mar 16, 2020',
-        datetime: '2020-03-16',
-        imageUrl:
-            'https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
-        readingTime: '6 min',
-        audioSrc: literatur
+            `Als erstes Sample dass ich für meine Projektarbeit einreichen wollte stand dieser Text für mich fest.
+Inhaltlich befinden sich die drei Akteure Marc-Uwe Kling, das Känguru und eine Angestellte, wie der Titel schon verrät, in der Ausländerbehörde. Dort versucht das Känguru der unmotivierten Angestellten klarzumachen, dass es aufgrund seiner Festanstellung bei Marc-Uwe nicht abgeschoben werden kann. Besonders interessant an diesem Text finde ich sowohl die verschiedenen Tempi und Gemütszustände der Akteure als auch die Tatsache dass die englische, französische und spanische Übersetzung des Wortes „Scheißverein“ wie selbstverständlich im Redefluss einzubauen waren.
+`,
+        audioSrc: kanguru
     },
     {
-        title: 'Nachrichten',
+        title: 'Lama',
         description:
-            `Der Nachrichtentext, den ich mir ausgesucht habe, handelt von einem Aufschwung in der britischen Wirtschaft. Damit ist er
-für mein Gesamtthema Großbritannien prädestiniert. Außerdem finde ich, dass Wirtschaftsnachrichten der Inbegriff der
-im Nachrichtengenre geforderten Informationsvermittlung darstellen und somit gut für ein Beispielsample in dieser
-Kategorie geeignet sind. Der Artikel erschien am 12.08.2021 auf tagesschau.de und behandelt die Zusammenhänge der
-britischen Wirtschaft mit Lockerungen der Corona-Maßnahmen.`,
-        date: 'Mar 10, 2020',
-        datetime: '2020-03-10',
-        imageUrl:
-            'https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
-        readingTime: '4 min',
-        audioSrc: nachrichten
+            `Das Sample der Restaurantszene aus „ein Königreich für ein Lama“ habe ich ausgewählt da es mir sowohl bei der Aufnahme als auch beim späteren Hören am meisten Spaß gemacht hat.
+Obgleich ich im Nachhinein festgestellt habe, dass wir die Szene gänzlich anders angelegt haben als die Originalsprecher dies im Film tun, finde ich, dass unsere Version einen eigenen Charme besitzt.
+Besonders gefallen hat mir die Herausforderung bei diesem Text dass er aufgrund des schnellen Dialoges größtenteils als eine einzige zusammenhängende Aufnahme produziert werden musste.
+Auch finde ich dass die (wie im Kinder/Jugendgenre gewünscht) überzogene Darstellung der Charaktere viel zur Dynamik und dem Unterhaltungswert des Samples beitragen.
+`,
+        audioSrc: lama
 
     },
     {
-        title: 'Schauspiel',
+        title: 'Freundschaft',
         description:
-            `Der Ausschnitt aus Jan-Philipp Zymnys Text "Erster Monolog der Lady Cuttlefish", in der von der Bühnenversion leicht
-alternierenden Form aus seinem Buch "Es war zweimal - Eine schriftliche Meditation über den Sinn und die Geheimnisse des Lebens"
-ist ein Text über den ich lange nachgedacht habe. Die Tatsachen, dass er aus der Perspektive einer überspitzt dargestellten
-britischen Lady geschrieben und vom Autor auf diversen Poetryslams bereits live vorgetragen wurde, haben mich zwar abgeschreckt,
-aber letztendlich habe ich mich doch dafür entschieden. Nicht zuletzt, weil er sehr viel Spielraum für verschiedene Interpretationen
-bietet, aber auch wegen seines einfach absurden und verquerten Witzes, die den Text zu einem meiner Lieblinge von Zymny machen.`,
-        date: 'Feb 12, 2020',
-        datetime: '2020-02-12',
-        imageUrl:
-            'https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
-        readingTime: '11 min',
-        audioSrc: schauspiel
+            `Die Entscheidung welches mein drittes und letztes Sample werden sollte fiel mir nicht leicht. Einerseits wollte ich da die ersten beiden Hörproben beide einen eher lustigen Charakter haben nicht noch einen Text nehmen, der in diese Richtung geht, andererseits halte ich dies für meine Stärke.
+Ich habe mich letztendlich für die Krankenhausszene aus „Freundschaft plus“ entschieden.
+Die Aufnahme selbst ist zwar recht kurz, aber ich finde es ist uns doch gelungen die Szene so anzulegen wie sie gedacht ist und ihr dennoch unsere eigene Note zu verleihen.
+`,
+        audioSrc: freundschaft
 
-    }, {
-        title: 'Werbung',
-        description:
-            `Für mein werbisches Sample habe ich mich für einen TV-Spot einer Kenwood Küchenmaschine aus 2021 entschieden. In mein
-Gesamtthema passt der Spot insofern, dass Kenwood eine britische Marke ist. Ich habe diesen Text ausgesucht, da er in den
-wenigen Sätzen, aus denen der Spot besteht viele verschiedene Emotionen bedient und fast jeder zum Thema Küche/Kochen einen
-Bezug hat. `,
-        date: 'Feb 12, 2020',
-        datetime: '2020-02-12',
-        imageUrl:
-            'https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
-        readingTime: '11 min',
-        audioSrc: werbung
-
-    },
+    }
 ]
 
 export const Downloads = () => {
@@ -84,11 +45,7 @@ export const Downloads = () => {
                 <div className="text-center">
                     <h2 className="text-3xl tracking-tight font-extrabold text-blue-400 sm:text-4xl">Hörproben</h2>
                     <p className="mt-3 mx-auto text-xl text-gray-200 sm:mt-4 leading-8">
-                        Das übergeordnete Gesamtthema dieser Projektarbeit soll alle Samples miteinander verknüpfen, Ich entschied mich für ein
-                        Thema, mit dem fast jeder zumindest einige Dinge verbindet, aber in erster Linie eines, das mich selbst interessiert:
-                        Großbritannien.
-                        Die Texte der Sample-Tracks stehen alle auf die ein oder andere Weise mit diesem Thema in Verbindung, sei es als Schauplatz
-                        einer gesamten Buchreihe oder nur durch den Firmensitz der beworbenen Firma.
+                        Auch in diesem Halbjahr sollten wieder Hörproben aus den Aufnahmen des vergangenen Halbjahres präsentiert werden. Die Entscheidung fiel mir nicht leicht, aber ich denke ich habe die richtigen Texte ausgewählt. Das Einsprechen der Hörspiele hat mir enorm viel Spaß bereitet und vor allem die Möglichkeit im Studio aufeinander zu reagieren und schnell hin und her wechselnde Gespräche zu realisieren hat für mich den besonderen Reiz ausgemacht, vor allem im vergleich zu den Vorangegangenen Hörbuchaufnahmen.
                     </p>
                 </div>
                 <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-2 lg:max-w-none">

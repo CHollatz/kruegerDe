@@ -26,6 +26,11 @@ export const AudioPlayer = (props: IAudioPlayer) => {
         } else if (playing) {
             interval = setInterval(() => {
                 updateWidth()
+                if (audio?.ended) {
+                    setPlaying(false)
+                    audio.currentTime = 0
+                    updateWidth()
+                }
             }, 200);
         }
         return () => {
@@ -35,24 +40,16 @@ export const AudioPlayer = (props: IAudioPlayer) => {
         }
     }, [playing])
 
+
     const updateWidth = () => {
         const _width = audio.currentTime / audio.duration * 100
         setWidth(_width)
     }
 
     const handlePlayPause = () => {
-        console.log('audioSrc', audioSrc)
-        console.log('audio.src', audio.src)
-        console.log('audio.currentSrc', audio.currentSrc)
-        console.log('audio.readyState', audio.readyState)
-        if (audio?.src?.endsWith('.webm')) {
-            audio.src = '/static/media/Werbung.37ce9bbc.webm'
-            audio.load()
-        }
         let i = 0;
         if (audio.readyState === 0 && i < 50) {
             audio.load()
-            console.log('audio.readyState', audio.readyState)
         }
         try {
             if (playing) {
