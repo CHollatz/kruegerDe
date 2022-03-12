@@ -45,7 +45,7 @@ export const Downloads = () => {
                 <div className="text-center">
                     <h2 className="text-3xl tracking-tight font-extrabold text-blue-400 sm:text-4xl">Hörproben</h2>
                     <p className="mt-3 mx-auto text-xl text-gray-200 sm:mt-4 leading-8">
-                        Auch in diesem Halbjahr sollten wieder Hörproben aus den Aufnahmen des vergangenen Halbjahres präsentiert werden. Die Entscheidung fiel mir nicht leicht, aber ich denke ich habe die richtigen Texte ausgewählt. Das Einsprechen der Hörspiele hat mir enorm viel Spaß bereitet und vor allem die Möglichkeit im Studio aufeinander zu reagieren und schnell hin und her wechselnde Gespräche zu realisieren hat für mich den besonderen Reiz ausgemacht, vor allem im vergleich zu den Vorangegangenen Hörbuchaufnahmen.
+                        Auch in diesem Halbjahr sollten wieder Hörproben aus den Aufnahmen des vergangenen Halbjahres präsentiert werden. Die Entscheidung fiel mir nicht leicht, aber ich denke ich habe die richtigen Texte ausgewählt. Das Einsprechen der Hörspiele hat mir enorm viel Spaß bereitet. Vor allem die Möglichkeit im Studio aufeinander zu reagieren und schnell hin und her wechselnde Gespräche zu realisieren hat für mich den besonderen Reiz ausgemacht. Gerade im Vergleich zu den vorangegangenen Hörbuchaufnahmen.
                     </p>
                 </div>
                 <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-2 lg:max-w-none">
