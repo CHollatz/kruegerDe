@@ -8,18 +8,18 @@ const posts = [
     {
         title: 'Känguru',
         description:
-            `Als erstes Sample dass ich für meine Projektarbeit einreichen wollte stand dieser Text für mich fest.
-Inhaltlich befinden sich die drei Akteure Marc-Uwe Kling, das Känguru und eine Angestellte, wie der Titel schon verrät, in der Ausländerbehörde. Dort versucht das Känguru der unmotivierten Angestellten klarzumachen, dass es aufgrund seiner Festanstellung bei Marc-Uwe nicht abgeschoben werden kann. Besonders interessant an diesem Text finde ich sowohl die verschiedenen Tempi und Gemütszustände der Akteure als auch die Tatsache dass die englische, französische und spanische Übersetzung des Wortes „Scheißverein“ wie selbstverständlich im Redefluss einzubauen waren.
+            `Als erstes Sample, das ich für meine Projektarbeit einreichen wollte, stand dieser Text für mich fest.
+Inhaltlich befinden sich die drei Akteure Marc-Uwe Kling, das Känguru und eine Angestellte, wie der Titel schon verrät, in der Ausländerbehörde. Dort versucht das Känguru der unmotivierten Angestellten klarzumachen, dass es aufgrund seiner Festanstellung bei Marc-Uwe nicht abgeschoben werden kann. Besonders interessant an diesem Text finde ich sowohl die verschiedenen Tempi und Gemütszustände der Akteure, als auch die Tatsache, dass die englische, französische und spanische Übersetzung des Wortes „Scheißverein“ wie selbstverständlich im Redefluss einzubauen waren.
 `,
         audioSrc: kanguru
     },
     {
         title: 'Lama',
         description:
-            `Das Sample der Restaurantszene aus „ein Königreich für ein Lama“ habe ich ausgewählt da es mir sowohl bei der Aufnahme als auch beim späteren Hören am meisten Spaß gemacht hat.
+            `Das Sample der Restaurantszene aus „Ein Königreich für ein Lama“ habe ich ausgewählt, da es mir sowohl bei der Aufnahme, als auch beim späteren Hören am meisten Spaß gemacht hat.
 Obgleich ich im Nachhinein festgestellt habe, dass wir die Szene gänzlich anders angelegt haben als die Originalsprecher dies im Film tun, finde ich, dass unsere Version einen eigenen Charme besitzt.
-Besonders gefallen hat mir die Herausforderung bei diesem Text dass er aufgrund des schnellen Dialoges größtenteils als eine einzige zusammenhängende Aufnahme produziert werden musste.
-Auch finde ich dass die (wie im Kinder/Jugendgenre gewünscht) überzogene Darstellung der Charaktere viel zur Dynamik und dem Unterhaltungswert des Samples beitragen.
+Besonders gefallen hat mir die Herausforderung bei diesem Text, dass er aufgrund des schnellen Dialoges größtenteils als eine einzige zusammenhängende Aufnahme produziert werden musste.
+Auch finde ich, dass die, wie im Kinder/Jugendgenre gewünscht, überzogene Darstellung der Charaktere viel zur Dynamik und dem Unterhaltungswert des Samples beitragen.
 `,
         audioSrc: lama
 
@@ -27,8 +27,8 @@ Auch finde ich dass die (wie im Kinder/Jugendgenre gewünscht) überzogene Darst
     {
         title: 'Freundschaft',
         description:
-            `Die Entscheidung welches mein drittes und letztes Sample werden sollte fiel mir nicht leicht. Einerseits wollte ich da die ersten beiden Hörproben beide einen eher lustigen Charakter haben nicht noch einen Text nehmen, der in diese Richtung geht, andererseits halte ich dies für meine Stärke.
-Ich habe mich letztendlich für die Krankenhausszene aus „Freundschaft plus“ entschieden.
+            `Die Entscheidung, welches mein drittes und letztes Sample werden sollte, fiel mir nicht leicht. Einerseits wollte ich, da die ersten beiden Hörproben beide einen eher lustigen Charakter haben, nicht noch einen Text nehmen, der in diese Richtung geht, andererseits halte ich dies für meine Stärke.
+Ich habe mich letztendlich für die Krankenhausszene aus „Freundschaft Plus“ entschieden.
 Die Aufnahme selbst ist zwar recht kurz, aber ich finde es ist uns doch gelungen die Szene so anzulegen wie sie gedacht ist und ihr dennoch unsere eigene Note zu verleihen.
 `,
         audioSrc: freundschaft
