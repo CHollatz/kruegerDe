@@ -348,3 +348,4 @@ ASALocalRun/
 .env
 npm-debug.log
 .eslintcache
+build/
