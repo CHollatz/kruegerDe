@@ -126,7 +126,7 @@ export const About = () => {
           möchte ich nun in diese Brance einsteigen.
         </p>
 
-        <ImageGallery />
+        {/* <ImageGallery /> */}
         <h1>
           <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-blue-400 sm:text-4xl">
             Die Fakten:
