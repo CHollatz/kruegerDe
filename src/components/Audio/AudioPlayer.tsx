@@ -1,16 +1,35 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import React, { Ref, useEffect, useRef, useState } from "react";
+import React, {
+  forwardRef,
+  Ref,
+  useEffect,
+  useImperativeHandle,
+  useRef,
+  useState,
+} from "react";
 import { createTheme, Slider, ThemeProvider } from "@mui/material";
 import { AudioButton } from ".";
 
 interface IAudioPlayer {
   audioSrc: string;
+  rounded?: boolean;
 }
 
-export const AudioPlayer = (props: IAudioPlayer) => {
-  const { audioSrc } = props;
-  console.log("audioSrc", audioSrc);
-  // audio = createRef<HTMLAudioElement>();
+export type AudioPlayerRef = {
+  playPauseHandler: () => void;
+};
+
+const AudioPlayer = forwardRef((props: IAudioPlayer, ref) => {
+  // Definiere, welche Funktionen für den Parent zugänglich sind
+  useImperativeHandle(ref, () => ({
+    playPauseHandler() {
+      if (!audio) return;
+      audio.pause();
+      setPlaying(false);
+    },
+  }));
+
+  const { audioSrc, rounded } = props;
   const [audio, setAudio] = useState<HTMLAudioElement>();
   const [playing, setPlaying] = useState<boolean>(false);
   const [width, setWidth] = useState<number>(0);
@@ -20,7 +39,6 @@ export const AudioPlayer = (props: IAudioPlayer) => {
 
   useEffect(() => {
     setAudio(new Audio(audioSrc));
-    // only run once on the first render on the client
   }, []);
 
   useEffect(() => {
@@ -64,7 +82,7 @@ export const AudioPlayer = (props: IAudioPlayer) => {
       }
       setPlaying(!playing);
     } catch (error) {
-      console.log("could not play file", error);
+      console.error("could not play file", error);
     }
   };
 
@@ -166,7 +184,6 @@ export const AudioPlayer = (props: IAudioPlayer) => {
               <Slider
                 value={volume}
                 onChange={(event, newValue) => {
-                  console.log("event", event);
                   handleVolume(
                     Array.isArray(newValue) ? newValue[0] : newValue
                   );
@@ -204,7 +221,7 @@ export const AudioPlayer = (props: IAudioPlayer) => {
   };
 
   return (
-    <div className="bg-blue-900 relative">
+    <div className={`bg-blue-900 relative ${rounded ? "rounded-lg" : ""}`}>
       <div
         className="bg-blue-400 h-20 rounded-lg"
         style={{ width: `${width}%`, transition: "width: 0.1s ease-in" }}
@@ -224,4 +241,8 @@ export const AudioPlayer = (props: IAudioPlayer) => {
       {renderControls()}
     </div>
   );
-};
+});
+
+AudioPlayer.displayName = "AudioPlayer";
+
+export default AudioPlayer;

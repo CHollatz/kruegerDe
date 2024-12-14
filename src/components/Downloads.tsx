@@ -1,5 +1,5 @@
 import React from "react";
-import { AudioButton, AudioPlayer } from "./Audio";
+import { AudioButton } from "./Audio";
 import korra from "../assets/korra.mp4";
 import vaiana from "../assets/vaiana.mp4";
 import darkShadows from "../assets/darkShadows.mp4";
@@ -11,6 +11,7 @@ import rafael from "../assets/rafael.mp3";
 import sandmann from "../assets/sandmann.mp3";
 import fragezeichen from "../assets/3Fragezeichen.mp3";
 import werther from "../assets/wer-schoss-auf-werther.mp3";
+import AudioPlayer from "./Audio/AudioPlayer";
 
 const posts = [
   {
