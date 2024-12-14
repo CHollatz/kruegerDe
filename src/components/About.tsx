@@ -1,5 +1,3 @@
-import { ImageGallery } from "./Image";
-
 export const About = () => {
   return (
     <div className="relative py-16 bg-gray-700 overflow-hidden">
@@ -126,7 +124,6 @@ export const About = () => {
           möchte ich nun in diese Brance einsteigen.
         </p>
 
-        {/* <ImageGallery /> */}
         <h1>
           <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-blue-400 sm:text-4xl">
             Die Fakten:
@@ -149,7 +146,8 @@ export const About = () => {
           Ausgebildeter Technischer Produktdesigner: seit 2016
         </p>
         <p className="mt-8 text-xl text-gray-200 leading-8">
-          Aktives Mitglied "Närrisches Kommitee Büblingshausen": seit 2017
+          Aktives Mitglied &quot;Närrisches Kommitee Büblingshausen&quot;: seit
+          2017
         </p>
         <p className="mt-8 text-xl text-gray-200 leading-8">
           Ausbildung zum (Synchron-)Sprecher an der Deutschen POP: April 2021

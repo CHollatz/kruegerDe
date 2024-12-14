@@ -1,23 +1,9 @@
-import React, { Fragment } from "react";
-import { Popover, Transition } from "@headlessui/react";
-import { MenuIcon, XIcon } from "@heroicons/react/outline";
+import React from "react";
 
 import fabiHeader from "../assets/fabiHeader.jpg";
-import logo from "../assets/logo.png";
+import Image from "next/image";
 
-interface IHeader {
-  onNavPress: (val: string) => void;
-}
-
-const navigation = [
-  { name: "Über", href: "about" },
-  { name: "Hörproben", href: "samples" },
-  { name: "Kontakt", href: "footer" },
-];
-
-export const Header = (props: IHeader) => {
-  const { onNavPress } = props;
-
+export const Header = () => {
   return (
     <div className="relative bg-gray-600 overflow-hidden">
       <div className="max-w-7xl mx-auto">
@@ -62,10 +48,9 @@ export const Header = (props: IHeader) => {
         </div>
       </div>
       <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-        <img
+        <Image
           className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
           src={fabiHeader}
-          // src={pult}
           alt=""
         />
       </div>
